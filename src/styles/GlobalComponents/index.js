@@ -30,7 +30,7 @@ export const SectionTitle = styled.h2`
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  background: linear-gradient(121.57deg, #8C6FCF 18.77%, #D782D9 60.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
@@ -60,7 +60,9 @@ export const SectionText = styled.p`
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.5);
+  background: -webkit-linear-gradient(white, grey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -177,7 +179,7 @@ export const ButtonBack = styled.div`
   justify-content: center;
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
   color: #fff;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #6D4C41 0%, #9C27B0 50%, #673AB7 100%)' : 'linear-gradient(270deg, #6D4C41 0%, #9C27B0 50%, #673AB7 100%)'};
   cursor: pointer;
   transition: 0.5s ease;
   position: relative;
@@ -209,7 +211,7 @@ export const ButtonFront = styled.button`
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #9C27B0 0%, #673AB7 100%)' : 'linear-gradient(270deg, #9C27B0 0%, #673AB7 100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
