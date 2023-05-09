@@ -88,14 +88,14 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
+color: white;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: radial-gradient(circle, hsla(291, 64%, 42%, 1) 71%, hsla(0, 0%, 77%, 1) 100%);
 border-radius: 15px;
-transition: 0.5s;
+transition: background-image 0.5s ease;
 &:hover{
-  background: #801414;
+  background: radial-gradient(circle, hsla(291, 64%, 42%, 1) 71%, hsla(186, 100%, 50%, 1) 100%);
 
 }
 `;
