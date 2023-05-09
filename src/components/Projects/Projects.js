@@ -25,16 +25,16 @@ const Projects = () => (
     <SectionDivider />
     <SectionTitle main>My Projects</SectionTitle>
     <GridContainer>
-      {projects.map(({id, image, title, description, tags, repo, site }) => (
+      {projects.map(({ id, image, title, description, tags, repo, site }) => (
         <BlogCard key={id}>
           <Img src={image} />
           <TitleContent>
-            <HeaderThree title>{title}
-            </HeaderThree>
+            <HeaderThree title>{title}</HeaderThree>
             <Hr />
           </TitleContent>
           <CardInfo>{description}</CardInfo>
           <div>
+            <br />
             <TitleContent>Tech Stack</TitleContent>
             <TagList>
               {tags.map((tag, i) => (
