@@ -118,7 +118,21 @@ export const SocialIcons = styled.a`
   border-radius: 50px;
   padding: 8px;
   &:hover {
-    background-color: #212d45;
+    background: linear-gradient(270deg, #9c27b0 0%, #673ab7 100%);
+    transform: rotate(360deg);
+    transition: transform 0.8s ease-in-out;
+    cursor: pointer;
+  }
+  `;
+  
+  export const HomeLink = styled.a`
+  border-radius: 50px;
+  transition: 0.3s ease;
+  color: white;
+  padding: 8px;
+  transition: 0.3s ease;
+  &:hover {
+    background: linear-gradient(270deg, #9c27b0 0%, #673ab7 100%);
     transform: rotate(360deg);
     transition: transform 0.8s ease-in-out;
     cursor: pointer;
