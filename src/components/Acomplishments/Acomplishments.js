@@ -12,7 +12,7 @@ const data = [
   { header: "Passed", text: "Diploma in Full-Stack Development" },
   { header: "Learned", text: "Necessary Web Development skills" },
   { header: "Discovered", text: "Passion for Front End Development" },
-  { header: "Progressing", text: "My knowledge in Modern Technologies" },
+  { header: "Progressing", text: "My knowledge of Modern Technologies" },
 ];
 
 const Acomplishments = () => (
@@ -27,7 +27,7 @@ const Acomplishments = () => (
     </SectionText>
     <br />
     <SectionText>
-      I have always had a passion in designing things, this being drawing,
+      I have always had a passion for designing things, this being drawing,
       creating digital designs in school, and even mockup websites in college.
       Until I found coding, I could never express this creativity that has
       lurked within me and the more tools and technologies I discover, the more

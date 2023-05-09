@@ -8,8 +8,7 @@ const Technologies = () =>  (
     <SectionDivider/>
     <br/>
     <SectionTitle>Tech Stack</SectionTitle>
-    <SectionText>I've worked with mutliple technologies with web development. I studied a Diploma in
-       Full-Stack Software Development and I enjoy creating Front-End applications!</SectionText>
+    <SectionText>Throughout my Full-Stack Diploma, I have gained extensive knowledge and experience working with a variety of front-end and back-end technologies in the industry. In particular, I have enjoyed combining my passion for design with my technical skills by creating aesthetically pleasing designs and implementing them in my projects. </SectionText>
        <List>
         <ListItem>
           <DiReact size="3rem"/>
