@@ -34,7 +34,7 @@ export const projects = [
     description:
       "My PT booking website was created with HTML5, CSS3, JavaScript, Python, Django, Jinja and PostgreSQL. This website allows a user to book a training session from unbooked dates. If a session is booked, the day is reserved for that user depending on if they edit or remove said booking. Users have full CRUD functionality over their own records. ",
     image: "/images/4.png",
-    tags: ["JavaScript", "Python", "Django", "Jinja", "PostgreSQL"],
+    tags: ["JavaScript", "Python", "Django"],
     repo: "https://github.com/bodthegod/bod-fitness",
     site: "https://bodfitness.herokuapp.com/",
     id: 3,
@@ -44,7 +44,7 @@ export const projects = [
     description:
       "Here is my fitness blog app, which was built with HTML5, CSS3, ReactJS, JavaScript, Python and the Django REST Framework. This site allows users to create accounts and fitness-related posts for all other users to see. Users can interact with other posts and have complete CRUD functionality over their own data. ",
     image: "/images/5.png",
-    tags: ["ReactJS", "JavaScript", "Django REST Framework"],
+    tags: ["ReactJS", "Python", "REST"],
     repo: "https://github.com/bodthegod/thebod-app",
     site: "https://thebod-blog.herokuapp.com/",
     id: 4,
