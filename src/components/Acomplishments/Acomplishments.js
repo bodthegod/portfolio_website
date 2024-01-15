@@ -10,9 +10,9 @@ import { Box, Boxes, BoxHeader, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 const data = [
   { header: "Passed", text: "Diploma in Full-Stack Development" },
-  { header: "Learned", text: "Necessary Web Development skills" },
-  { header: "Discovered", text: "Passion for Front End Development" },
-  { header: "Progressing", text: "My knowledge of Modern Technologies" },
+  { header: "Learned", text: "Software Engineering Methodologies" },
+  { header: "Landed", text: "Dream Front-End Role" },
+  { header: "Progressing", text: "Front-End Frameworks and Technologies" },
 ];
 
 const Acomplishments = () => (
